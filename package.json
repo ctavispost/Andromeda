@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/TeddySpaghet/Andromeda/issues"
   },
-  "homepage": "https://github.com/TeddySpaghet/Andromeda#readme"
+  "homepage": "https://github.com/TeddySpaghet/Andromeda#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "path": "^0.12.7",
+    "pg": "^8.5.1",
+    "sequelize": "^6.3.5"
+  }
 }

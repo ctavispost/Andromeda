@@ -1,18 +1,23 @@
 {
-    "development": {
-      "database": "Andromeda",
-      "host": "127.0.0.1",
-      "dialect": "postgres"
-    },
-    "test": {
-      "database": "Andromeda_test",
-      "host": "127.0.0.1",
-      "dialect": "postgres"
-    },
-    "production": {
-      "database": "Andromeda",
-      "host": "127.0.0.1",
-      "dialect": "postgres"
-    }
+  "development": {
+    "username": "theop",
+    "password": null,
+    "database": "Andromeda",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "theop",
+    "password": null,
+    "database": "Andromeda",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "theop",
+    "password": null,
+    "database": "Andromeda",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
   }
-  
+}
