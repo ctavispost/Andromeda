@@ -1,10 +1,11 @@
 {
-  "name": "Andromeda",
+  "name": "andromeda",
   "version": "1.0.0",
   "description": "Collaboration between SEI-921, and UXDI-1012",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/TeddySpaghet/Andromeda/issues"
   },
-  "homepage": "https://github.com/TeddySpaghet/Andromeda#readme"
+  "homepage": "https://github.com/TeddySpaghet/Andromeda#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "pg": "^8.5.1",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {}
 }
