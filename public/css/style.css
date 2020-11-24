@@ -1,0 +1,60 @@
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: 'Roboto';
+    color: #333333;
+}
+
+button {
+    color: white;
+    background-color: #1386D9;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    max-height: 50vh;
+    object-fit: cover;
+}
+
+.nav {
+    color: #333333;
+    background-color: white;
+}
+
+.brand-logo {
+    font-size: 1.333rem;
+    color: white;
+    background-color: #1386D9;
+    padding: 0 1rem;
+}
+
+.embold {
+    font-weight: bold;
+}
+
+.enlight {
+    font-weight: lighter;
+}
+
+.card-img {
+    background-color: #1386D9;
+}
+
+.card-title {
+    color: white;
+    background-color: #EE6D10;
+}
+
+.card-content {
+    color: #333333;
+    background-color: white;
+}
+
+.btn-secondary {
+    color: #1386D9;
+    background-color: none;
+    border: 2px solid #1386D9;
+}
