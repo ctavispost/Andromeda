@@ -1,6 +1,20 @@
-<% user.forEach(function(user) { %>
-    <div class="well">
-      <p><%= user.name %></p>
-      <p><%= user.email %></p>
-    </div>
-  <% }); %>
+
+
+
+      <table class="responsive-table highlight">
+        <thead>
+          <tr>
+              <th>Name</th>
+              <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% user.forEach(function(user) { %>
+          <tr>
+            <td><%= user.name %></td>
+            <td><%= user.email %></td>
+          <% }); %>
+        </tbody>
+      </table>
+
+     
