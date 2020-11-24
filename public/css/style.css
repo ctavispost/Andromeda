@@ -1,5 +1,7 @@
 html {
-    font-size: 18px;
+    font-size: 18px; /* fallback font size: should be large enough for mobile screens */
+  font-size: min(max(16px, 3vw), 24px); /* responsive font size */
+  scroll-behavior: smooth;
 }
 
 body {
@@ -29,7 +31,7 @@ img {
 
 .nav {
     color: #333333;
-    background-color: #EE6D10;
+    background-color: #1389D9;
 }
 
 .brand-logo {
@@ -49,6 +51,14 @@ img {
 
 .card-img {
     background-color: #1386D9;
+}
+
+.padding-sm {
+    padding: .75rem !important;
+}
+
+.flexish {
+    display: flex;
 }
 
 .card-title {
@@ -74,17 +84,28 @@ img {
 
 .header-title{
     color: #fff;
-    position: absolute;
-    bottom: 40%;
-    /* left: auto; */
     text-align: center;
     justify-content: center;
     justify-self: center;
     max-width: 100%;
     padding: 24px;
+    background-image: url("header.jpg");
 }
+
 .covid {
     text-align: center;
     background-color: #333333;
     color:white
+}
+
+.article {
+    justify-content: center;
+}
+
+@media only screen and (min-width: 901px) {
+    .card { 
+        margin-left: .25rem;
+        margin-right: .25rem;
+        max-width: 24%;
+    }
 }
