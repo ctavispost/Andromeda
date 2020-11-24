@@ -36,6 +36,7 @@ app.post('/', (req, res) => {
             res.redirect('/')
     }).catch((error) => {
             // req.flash('error', "Sorry but somehow you F***'d this up...");
+            console.log("couldn't make user")
     })
 });
 
