@@ -3,7 +3,14 @@ const db = require('../models')
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    res.render('admin');
+    db.user.findAll().then((user) => {
+        res.render('admin', {user: user});
+
+
+    }).catch((error) => {
+        console.log("can't get users")
+    })
+    
 });
 
 module.exports = router;
