@@ -1,1 +1,6 @@
-<%=user.name%>
+<% user.forEach(function(user) { %>
+    <div class="well">
+      <p><%= user.name %></p>
+      <p><%= user.email %></p>
+    </div>
+  <% }); %>
