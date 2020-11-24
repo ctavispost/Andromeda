@@ -1,8 +1,8 @@
 {
   "development": {
-    "username": "theop",
+    "username": "tessizzy",
     "password": null,
-    "database": "Andromeda",
+    "database": "andromeda",
     "host": "127.0.0.1",
     "dialect": "postgres"
   }
