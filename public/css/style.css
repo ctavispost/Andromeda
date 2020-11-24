@@ -66,3 +66,20 @@ img {
     background-color: none;
     border: 2px solid #1386D9;
 }
+
+.card-background-grey {
+    background-color: lightgrey;
+    
+}
+
+.header-title{
+    color: #fff;
+    position: absolute;
+    bottom: 40%;
+    /* left: auto; */
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    max-width: 100%;
+    padding: 24px;
+}
