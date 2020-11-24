@@ -74,16 +74,28 @@ img {
 
 .header-title{
     color: #fff;
-    position: absolute;
-    bottom: 40%;
-    /* left: auto; */
     text-align: center;
     justify-content: center;
     justify-self: center;
     max-width: 100%;
     padding: 24px;
+    background-image: url("header.jpg");
+}
+
 .covid {
     text-align: center;
     background-color: #333333;
     color:white
+}
+
+.article {
+    justify-content: center;
+}
+
+@media only screen and (min-width: 901px) {
+    .card { 
+        margin-left: .25rem;
+        margin-right: .25rem;
+        max-width: 24%;
+    }
 }
