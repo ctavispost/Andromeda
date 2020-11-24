@@ -1,10 +1,11 @@
 {
-  "name": "Andromeda",
+  "name": "andromeda",
   "version": "1.0.0",
   "description": "Collaboration between SEI-921, and UXDI-1012",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
