@@ -1,12 +1,8 @@
 {
   "development": {
-<<<<<<< HEAD
     "username": "tavispost",
-=======
-    "username": "tessizzy",
->>>>>>> submain
     "password": null,
-    "database": "andromeda",
+    "database": "Andromeda",
     "host": "127.0.0.1",
     "dialect": "postgres"
   }
