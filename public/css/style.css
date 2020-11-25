@@ -1,6 +1,6 @@
 html {
     font-size: 18px; /* fallback font size: should be large enough for mobile screens */
-  font-size: min(max(16px, 3vw), 24px); /* responsive font size */
+  font-size: min(max(20, 3vw), 24px); /* responsive font size */
   scroll-behavior: smooth;
 }
 
@@ -59,6 +59,9 @@ img {
     font-size: .6rem !important;
 }
 
+.row .col {
+    padding: 0;
+}
 .flexish {
     display: flex;
     justify-content: center;
@@ -76,9 +79,11 @@ img {
 }
 
 .btn-secondary {
-    color: #1386D9;
-    background-color: none;
+    color: #333333;
+    background-color: lightgray;
     border: 2px solid #1386D9;
+    font-weight: bolder;
+    
 }
 
 .card-background-grey {
@@ -97,10 +102,12 @@ img {
     justify-self: center;
     max-width: 100%;
     padding: 24px;
+    background-position: center;
     
 }
 .header{
     background-image: url("/images/header.jpg");
+    background-position: center;
 
 }
 .covid {
@@ -113,4 +120,13 @@ img {
     justify-content: center;
 }
 
+.signup {
+    font-weight: bolder;
+}
+.card-action {
+    display: none;
+}
 
+.label {
+    font-weight: bolder;
+}
