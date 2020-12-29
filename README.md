@@ -15,3 +15,5 @@ ATC is a server rendered app using:
 - Node.js
 - Express
 - EJS (Embedded Javascript templating)
+- CSS
+- Materialize CSS
