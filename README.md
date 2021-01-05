@@ -13,6 +13,8 @@ https://www.figma.com/file/LVgz9em2jfzZrKKrHxThz1/Collabathon
 
 ATC is a server rendered app using:
 - Node.js
+- Sequelize
+- PostgreSQL
 - Express
 - EJS (Embedded Javascript templating)
 - CSS
